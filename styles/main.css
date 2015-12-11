@@ -71,3 +71,14 @@ body {
   background-color: blue;
   color: white;
 }
+
+h2 {
+  color: #33BEBE;
+  font-size: 50px;
+  font-style: italic;
+  font-weight: 400;
+  text-align: center;
+  max-width: 695px;
+  margin: -10px auto 0;
+  width: 100%;
+}
