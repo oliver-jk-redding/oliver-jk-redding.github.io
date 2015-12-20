@@ -15,16 +15,20 @@ a {
   color: white;
   text-decoration: none;
 }
+header li a {
+  text-transform: uppercase;
+}
 a:hover {
   color: rgb(0,121,255);
+}
+.section {
+  padding-bottom: 13%;
+  text-align: center;
 }
 
 /*Header
 ___________________________*/
 
-.section-header {
-  padding-bottom: 13%;  
-}
 header li.columns {
   margin: 4px 0px 0px 0px;
   text-align: center;  
@@ -34,10 +38,6 @@ header li.columns {
 /*Main Section
 ___________________________*/
 
-.section-greeting {
-  padding-bottom: 23%;
-  text-align: center;
-}
 .greeting {
   text-align: center;
   max-width: 60%;
@@ -49,24 +49,30 @@ ___________________________*/
 .button.button-primary {
   background-color: transparent;
   border-color: transparent;
-  font-size: 5.0rem;  
+  font-size: 7.0rem;
+  margin: 50px;  
 }
 .button.button-primary:hover {  
   background-color: transparent;
   border-color: transparent;
-  font-size: 7.0rem;
+  font-size: 11.0rem;   
+}
+.button.button-primary:focus {  
+  background-color: transparent;
+  border-color: transparent;  
 }
 
 /*Footer
 ___________________________*/
 
 footer li {
-  margin: 0px;    
+  margin: 0px; 
+  font-size: 1.6rem;   
 }
 div.columns.footer {
   float: right;
 }
 .footer-item {  
-  margin: 0px 10px 20px 10px;
+  margin: 0px 10px;
   display: inline-block;  
 }
