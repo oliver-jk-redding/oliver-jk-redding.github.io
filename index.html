@@ -22,52 +22,65 @@
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.css">
+  <link rel="stylesheet" href="styles/main.css">
 
   <!-- Favicon
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <link rel="icon" type="image/png" href="images/favicon.png">
 
 </head>
+
 <body>
 
   <!-- Primary Page Layout
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <header>
+  <header class="section-header">
     <div class="container">
-      <div class="row">
-        <div class="four columns">
-          <h3>oliver-jk-redding</h3>          
+      <nav class="row">
+        <div class="four columns  name">
+          <h5><a href="#">oliver-jk-redding</a></h5>        
         </div>
-        <ul>
-          <li class="one column">About Me</li>
-          <li class="one column">Content</li>
-          <li class="one column">Blogs</li>
-          <li class="one column">Projects</li>
+        <ul>          
+          <li class="two columns">
+            <a href="#">Projects</a>
+          </li>
+          <li class="two columns">
+            <a href="#">Blogs</a>
+          </li>
+          <li class="two columns">
+            <a href="#">Content</a>
+          </li>
+          <li class="two columns">
+            <a href="#">About Me</a>
+          </li>
         </ul>
-      </div>
+      </nav>
     </div>
   </header>
 
-  <div class "greeting">
+  <section class="section-greeting">
     <div class="container">
-      <div class="row">
-        <div class="one-third column">
-          <p>This is the greeting</p>
-          <a href="#">Yes</a>
-        </div>
-      </div>
+      <p class="greeting">Hi, I'm Ollie.  I'm learning to be a web developer.  Would you like to hang out?</p>
+      <a class="button button-primary" href="#">Yes</a>
     </div>
-  </div>
+  </section>
 
-  <footer>
+  <footer class="section-footer">
     <div class="container">
-      <div class="row">
-        <ul>
-          <li class="one column"><a href="#">github</a></li>
-          <li class="one column"><a href="#">linkedin</a></li>
-          <li class="one column"><a href="#">cv</a></li>    
-        </ul>
-      </div>
+      <nav class="row">
+        <!-- <div class="navo"> -->
+          <ul>  
+            <li class="footer-item">
+              <a href="https://github.com/oliver-jk-redding">github</a>
+            </li>
+            <li class="footer-item">
+              <a href="https://www.linkedin.com/profile/view?id=436583169&trk=nav_responsive_tab_profile">linkedin</a>
+            </li>
+            <li class="footer-item">
+              <a href="#">cv</a>                     
+          </ul>
+        <!-- </div> -->
+      </nav>
     </div>
   </footer>
 

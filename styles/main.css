@@ -1,0 +1,72 @@
+/*General
+___________________________*/
+
+html {
+  background-color: #33C3F0;
+  background-image: url('/home/dev/workspace/oliver-jk-redding.github.io/images/wellington_harbour_2005_by_awe_inspired.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+}
+ul {
+  list-style-type: none;
+  text-align: center;
+}
+a {
+  color: white;
+  text-decoration: none;
+}
+a:hover {
+  color: rgb(0,121,255);
+}
+
+/*Header
+___________________________*/
+
+.section-header {
+  padding-bottom: 13%;  
+}
+header li.columns {
+  margin: 4px 0px 0px 0px;
+  text-align: center;  
+  float: right;  
+}
+
+/*Main Section
+___________________________*/
+
+.section-greeting {
+  padding-bottom: 23%;
+  text-align: center;
+}
+.greeting {
+  text-align: center;
+  max-width: 60%;
+  margin-left: auto;
+  margin-right: auto; 
+  color: white; 
+  font-size: 3.0rem;
+}
+.button.button-primary {
+  background-color: transparent;
+  border-color: transparent;
+  font-size: 5.0rem;  
+}
+.button.button-primary:hover {  
+  background-color: transparent;
+  border-color: transparent;
+  font-size: 7.0rem;
+}
+
+/*Footer
+___________________________*/
+
+footer li {
+  margin: 0px;    
+}
+div.columns.footer {
+  float: right;
+}
+.footer-item {  
+  margin: 0px 10px;
+  display: inline-block;  
+}
