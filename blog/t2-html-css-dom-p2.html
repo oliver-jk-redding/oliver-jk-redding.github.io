@@ -1,71 +1,152 @@
+
 <!DOCTYPE html>
-<html>
-  <head>
-    <title>Technical Blog Part 2</title>
-    <meta charset="UTF-8">
-    <link href="/../styles/main.css" rel="stylesheet" type="text/css">
-  </head>
-  
-  <body>
-    
-    <header class="page-header">
+<html lang="en">
+<head>
 
-      <h1>Technical Blog Part 2</h1>
-    
-        <nav class="main-nav">
-      
-          <a href="http://oliver-jk-redding.github.io">Home</a>
-          <a href="c1-reflection-blog.html">Shereef's fireside chat</a>
-          <a href="c1-time-and-habits-blog.html">Time and habits</a>
-          <a href="t2-html-css-dom-p1.html">Udacity 1</a>
-          <a href="t2-html-css-dom-p2.html">Udacity 2</a>
-          <a href="c2-emotional-intelligence.html">Cultural Blog</a>
-      
-        </nav>
+  <!-- Basic Page Needs
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta charset="utf-8">
+  <title>HTML, CSS & DOM 2</title>
+  <meta name="description" content="">
+  <meta name="author" content="">
 
-    </header>
+  <!-- Mobile Specific Metas
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <section class="page-content">
+  <!-- FONT
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
 
-    <h2>What is grid based design?</h2>
-    <h3>12 December 2015</h3>
-    
-    <p>
-      Grid based design is laying out content of a webpage according to a grid usually 12 columns across.  This is effective because it means you can arrange content evenly in columns of 1, 2, 3, 4, 6, and 12.
-    </p>
+  <!-- CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.css">
+  <link rel="stylesheet" href="/home/dev/workspace/oliver-jk-redding.github.io/styles/main.css">
 
-    <h2>What's all the hype about responsive webpages?</h2>
-    <h3>12 December 2015</h3>
+  <!-- Favicon
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="icon" type="image/png" href="images/favicon.png">
 
-    <p>
-     Responsive web pages are pages whose content responds to the size of the screen.  This means when a screen is small or large the content on the page responds to arrange itself in a visaully pleasing way.  This has become especially important in recent times with the advent of phones and tablets, meaning people could be viewing a webpage on a variety of different screen sizes at any one time.
-     </p>
+</head>
 
-    <h2>What is semantic structure?</h2>
-    <h3>12 December 2015</h3>
+<body>
 
-    <p>
-      It is not hard for a computer to read HTML. So long as the syntax is adhered to, the computer will be able to read it, even if the code is strung out in one long line. However it is far more beneficial to write code that a human can understand as well. To assist in this, it is common to use semantic structure. This includes using tags with more specific meanings e.g. 'nav' even though it is syntactically identical to 'div' because it carries more meaning for a human trying to read and understand the code. Semantic structure therefore is using code that carries meaning from a humna point of view to make it easier to understand.
-    </p>
+  <!-- Primary Page Layout
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <header class="section">
+    <div class="container">
+      <nav class="row  menu">
+        <div class="four columns">
+          <h5 class="name"><a href="http://oliver-jk-redding.github.io">oliver-jk-redding</a></h5>   
+        </div>
+        <ul>          
+          <li class="two columns">
+            <a href="#">Projects</a>
+          </li>
+          <li class="two columns">
+            <a href="#">Blogs<span class="arrow">&#9660;</span></a>
+            <ul class="sub-menu">
+              <li class="u-cf"> 
+                <a style="padding-top: 10px;" href="c1-reflection-blog.html">Shereef's Fireside Chat</a>   
+              </li>
+              <li class="u-cf"> 
+                <a href="c1-time-and-habits-blog.html">Time and Habits</a>   
+              </li>
+              <li class="u-cf"> 
+                <a href="c2-emotional-intelligence.html">Emotional Intelligence</a>   
+              </li>
+              <li class="u-cf"> 
+                <a href="t2-html-css-dom-p1.html">HTML, CSS & DOM</a>   
+              </li>
+              <li class="u-cf"> 
+                <a href="t2-html-css-dom-p2.html">HTML, CSS & DOM 2</a>   
+              </li><li class="u-cf"> 
+                <a href="t3-design-to-web-blog.html">Design to Web</a>   
+              </li>
+            </ul> 
+          </li>
+          <li class="two columns">
+            <a href="#">Contact</a>
+          </li>
+          <li class="two columns">
+            <a href="#">About Me</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
 
-    <h2>Using fonts</h2>
-    <h3>12 December 2015</h3>
+  <section class="section">
+    <div class="container">
+      <div class="row">
+        <div class="one-third column">
+          <ul class="side-menu">
+              <li class="u-cf"> 
+                <a style="padding-top: 10px;" href="c1-reflection-blog.html">Shereef's Fireside Chat</a>   
+              </li>
+              <li class="u-cf"> 
+                <a href="c1-time-and-habits-blog.html">Time and Habits</a>   
+              </li>
+              <li class="u-cf"> 
+                <a href="c2-emotional-intelligence.html">Emotional Intelligence</a>   
+              </li>
+              <li class="u-cf"> 
+                <a href="t2-html-css-dom-p1.html">HTML, CSS & DOM</a>   
+              </li>
+              <li class="u-cf"> 
+                <a href="t2-html-css-dom-p2.html">HTML, CSS & DOM 2</a>   
+              </li><li class="u-cf"> 
+                <a href="t3-design-to-web-blog.html">Design to Web</a>   
+              </li>
+            </ul> 
+        </div>
+        <div class="two-thirds column  text-box">
+          <h1 class="text">HTML, CSS & DOM 2</h1>
+          <h5 class="text">12 December 2015</h5>
+          <h2 class="text">What is grid based design?</h2>
+          <p class="text">
+            Grid based design is laying out content of a webpage according to a grid usually 12 columns across.  This is effective because it means you can arrange content evenly in columns of 1, 2, 3, 4, 6, and 12.
+          </p>
+          <h2 class="text">What's all the hype about responsive webpages?</h2>
+          <p class="text">
+            Responsive web pages are pages whose content responds to the size of the screen.  This means when a screen is small or large the content on the page responds to arrange itself in a visaully pleasing way.  This has become especially important in recent times with the advent of phones and tablets, meaning people could be viewing a webpage on a variety of different screen sizes at any one time.
+          </p>    
+          <h2 class="text">What is semantic structure?</h2>
+          <p class="text">
+            It is not hard for a computer to read HTML. So long as the syntax is adhered to, the computer will be able to read it, even if the code is strung out in one long line. However it is far more beneficial to write code that a human can understand as well. To assist in this, it is common to use semantic structure. This includes using tags with more specific meanings e.g. 'nav' even though it is syntactically identical to 'div' because it carries more meaning for a human trying to read and understand the code. Semantic structure therefore is using code that carries meaning from a humna point of view to make it easier to understand.
+          </p>  
+          <h2 class="text">Using fonts</h2>
+          <p class="text">
+            Udacity taught me how to find and include new and interesting fonts in my webpages. I have read however that not all browsers can read all fonts and that it is better to stick to a few common ones or at least include common fonts as secondary styles for better browser compatibility. This is something I would like to investigate further. 
+          </p>
+          <p class="text">
+            On that note, there seems to be a lot of time given to making things compatible with old browsers. Is this really still necessary? The majority of viewers will have modern browsers. Should we care about those who don't? Is it time they caught up with the times? Should we be catering to their archaism?
+          </p>             
+        </div>
+      </div>      
+    </div>
+  </section>
 
-    <p>
-      Udacity taught me how to find and include new and interesting fonts in my webpages. I have read however that not all browsers can read all fonts and that it is better to stick to a few common ones or at least include common fonts as secondary styles for better browser compatibility. This is something I would like to investigate further. 
-    </p>
+  <footer class="section footer">
+    <div class="container">
+      <nav class="row">
+        <ul>  
+          <li class="footer-item">
+            <a href="https://github.com/oliver-jk-redding">github</a>
+          </li>
+          <li class="footer-item">
+            <a href="https://www.linkedin.com/profile/view?id=436583169&trk=nav_responsive_tab_profile">linkedin</a>
+          </li>          
+          <li class="footer-item">
+            <a href="#">CV</a> 
+          </li>                    
+        </ul>        
+      </nav>
+    </div>
+  </footer>
 
-    <p>
-      On that note, there seems to be a lot of time given to making things compatible with old browsers. Is this really still necessary? The majority of viewers will have modern browsers. Should we care about those who don't? Is it time they caught up with the times? Should we be catering to their archaism?
-    </p>
-    
-    </section>
-
-    <!-- this is a comment. -->
-
-    <footer class="page-footer">
-          &copy; Oliver Redding 2015
-    </footer>
-  
-  </body>
+<!-- End Document
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+</body>
 </html>

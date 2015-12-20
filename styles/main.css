@@ -18,7 +18,7 @@ a {
 a:hover {
   color: rgb(0,121,255);
 }
-.section {  
+.section.header, .section.main {  
   text-align: center;
   padding-bottom: 2%;
 }
@@ -93,6 +93,28 @@ ___________________________*/
 .button.button-primary:focus {  
   background-color: transparent;
   border-color: white;  
+}
+.two-thirds.column {
+  background-color: rgba(241,241,241,0.8);
+  border-radius: 10px;  
+}
+.text-box {
+  padding: 40px;
+}
+.text {
+  padding: 0px;
+  margin-bottom: 10px;
+}
+h2.text {
+  font-size: 3.0rem;
+  padding-top: 30px;
+  padding-bottom: 10px;
+}
+h5.text {
+  padding-bottom: 20px;
+}
+.side-menu {
+  font-size: 2.0rem;  
 }
 
 /*Footer
