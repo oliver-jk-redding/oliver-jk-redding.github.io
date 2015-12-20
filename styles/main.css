@@ -20,6 +20,7 @@ a:hover {
 }
 .section {  
   text-align: center;
+  padding-bottom: 2%;
 }
 
 /*Header
@@ -98,7 +99,7 @@ ___________________________*/
 ___________________________*/
 
 .section.footer {
-  margin-top: 10%;
+  margin-top: 7%;
 }
 footer li {
   margin: 0px; 
