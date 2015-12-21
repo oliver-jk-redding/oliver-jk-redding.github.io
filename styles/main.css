@@ -119,12 +119,12 @@ h5.text {
   font-size: 2.0rem;
   text-align: left;  
 }
-ul.side-menu:hover {
+.one-third.column:hover {
   background-color: rgba(34,34,34,0.8);
-  border-radius: 10px;  
+  border-radius: 10px;   
 }
-.side-menu li {
-  padding: 10px;
+ul.side-menu {
+  padding: 30px 30px 5px 30px;
 }
 
 /*Footer
