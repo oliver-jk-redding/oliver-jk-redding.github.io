@@ -65,9 +65,6 @@ ___________________________*/
   padding:0px 30px;
   display:block;
 }
-ul.side-menu {
-  text-align: left;
-}
 
 /*Main Section
 ___________________________*/
@@ -98,8 +95,10 @@ ___________________________*/
   border-color: white;  
 }
 .two-thirds.column {
-  background-color: rgba(241,241,241,0.8);
+  /*background-color: rgba(241,241,241,0.8);*/
+  background-color: rgba(34,34,34,0.8);
   border-radius: 10px;  
+  color: white;
 }
 .text-box {
   padding: 40px;
@@ -117,7 +116,15 @@ h5.text {
   padding-bottom: 20px;
 }
 .side-menu {
-  font-size: 2.0rem;  
+  font-size: 2.0rem;
+  text-align: left;  
+}
+ul.side-menu:hover {
+  background-color: rgba(34,34,34,0.8);
+  border-radius: 10px;  
+}
+.side-menu li {
+  padding: 10px;
 }
 
 /*Footer
