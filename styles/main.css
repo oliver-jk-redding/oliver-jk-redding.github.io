@@ -65,6 +65,9 @@ ___________________________*/
   padding:0px 30px;
   display:block;
 }
+ul.side-menu {
+  text-align: left;
+}
 
 /*Main Section
 ___________________________*/
