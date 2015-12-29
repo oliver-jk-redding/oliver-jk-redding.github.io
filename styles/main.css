@@ -3,8 +3,9 @@ ___________________________*/
 
 html {
   background-color: #33C3F0;
-  background-image: url('http://irishdeaths.com/wp-content/uploads/2015/07/wellington_harbour_2005_by_awe_inspired.jpg');
+  /*background-image: url('http://irishdeaths.com/wp-content/uploads/2015/07/wellington_harbour_2005_by_awe_inspired.jpg');*/
   /*background-image: url('/../images/me_at_gardens.jpg');*/
+  background-image: url('/../images/me_at_gardens_2.jpg');
   background-size: cover;
   background-attachment: fixed;
 }
