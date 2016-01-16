@@ -6,7 +6,7 @@
   <!-- Basic Page Needs
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <meta charset="utf-8">
-  <title>Emotional Intelligence</title>
+  <title>Javascript Basics</title>
   <meta name="description" content="">
   <meta name="author" content="">
 
@@ -22,6 +22,7 @@
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.css">
+  <!-- <link rel="stylesheet" href="/home/dev/workspace/oliver-jk-redding.github.io/styles/main.css"> -->
   <link rel="stylesheet" href="/../styles/main.css">
 
   <!-- Favicon
@@ -114,16 +115,41 @@
             </ul> 
         </div>
         <div class="two-thirds column  text-box">
-          <h1 class="text">Emotional Intelligence</h1>
-          <h5 class="text">12 December 2015</h5>
-          <h2 class="text">What learnings did I take from the chapter?</h2>
+          <h1 class="text">Javascript Basics</h1>
+          <h5 class="text">16 January 2015</h5>
+          <h2 class="text">How does Javascript compare to HTML and CSS?</h2>
           <p class="text">
-             I learned that one can train oneself to achieve more positive states of mind and that such states can affect one's leadership abilities and performance. I learned that through physiological actions one can one's psychological self.
+            Javascript is different from HTML and CSS because it has a different purpose and consequently a different architecture.  Whereas HTML and CSS are to do with structuring content on a webpage by organising that content into tags which determine the front-end appearance of a website, Javascript operates one layer back, by determining how objects on a website interact with each other and with the user. 
           </p>
-          <h2 class="text">How did I find the two minutes of mindfulness?</h2>
+          <p>
+            Javascript is an 'object-oriented' programming language so it is based on the idea of creating objects which have properties and which can be manipulated and interact with other objects.  It is similar to HTML and CSS in the sense that is utilises classes to organise content.  In HTML and CSS, classes are used to define a group of tags which we want given the same style.  In Javascript classes are used to define a group of objects which we want to have the same properties.  But the similarity ends there.  Objects behave quite differently from tags in that the properties do not have a visible effect on the object's apperance like styles do; they are purely abstract concepts.  For example, a penguin object can have properties describing its wing-span, colour, and species, but these are purely abstract descriptions that only have meaning insofar as they relate to other abstract objects.
+          </p>
+          <h2 class="text">An Explanation of Control Flow and Loops Using an Example Process from Everyday Life</h2>
           <p class="text">
-            I found that I was able to slow down my heart rate and achieve a greater sense of calm.  I tried the 'easier' approach by just relaxing without an agenda. When I finished, I was able to return to my task with a greater sense of focus.  I think for best results, this could be combined with a brief walk outside to add fresh air to the activity.
-          </p>          
+            Control flow statements look at a set of conditions and make a decision on what action to take based on the condition met. It is a good formula to use if a choice needs to be made. For example, if I am trying to decide what to have for breakfast, I might go through a process like this:
+          </p>
+          <p>
+            'If I am hungry AND feeling thin, I will have cocopops for breakfast.'
+            'Or if I am hungry AND feeling thin AND feeling hungover, I will have bacon and eggs for breakfast.'
+            'Or if I am not feeling hungry OR if I am feeling fat, I will have a hard-boiled egg for breakfast.'
+          </p>   
+          <p>
+            A loop statement is used to repeat an action until a particular condition has been met. For example, if I am eating a packet of potato chips, I might go through a process like this.
+          </p>
+          <p>
+            'While I am hungry, eat another chip. When I am no longer, hungry, stop.'
+          </p>
+          <h2 class="text">The difference between accessing data from arrays and object literals</h2>
+          <p class="text">
+            Objects contain descriptions called properties. Properties are a series of variables which can contain data in the form of values. These values can be accessed directly by referencing the object name, placing a '.' after it, and writing the name of the variable, but this only works if the variable is public. If it is private, a public method will have to be defined for the object in order for the value to be accessed. Similarly private values can only be changed if a public method provides for it. Another limitation is that you need to know the name of the variable in order for the value to be accessed.
+          </p>  
+          <p class="text">
+            An array stores values in a series of indices. These can be accessed by providing the name of the array and then putting the index of the variable in square brackets. This is very easy making array data more easily accessible than object literals, but the downside is that you need to know the index where the value is located. You can easily search through the indices until you find the value you are looking for but with especially large arrays, this can take time.
+          </p>
+          <h2 class="text">What are functions and why are they useful?</h2>
+          <p class="text">
+            Functions are lines of code assigned to a name. When one wants those lines of code to be implemented one only has to call the function by invoking the name. This is very useful because it avoids the need to repeat lines of code whenever the same action needs to be repeated. This saves time in the writing of the code and makes the code less cluttered. It is also in keeping with the programming principle of D.R.Y. (Don't Repeat Yourself).
+          </p>                  
         </div>
       </div>      
     </div>
@@ -150,4 +176,4 @@
 <!-- End Document
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
 </body>
-</html>   
+</html>
