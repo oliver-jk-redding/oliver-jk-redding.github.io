@@ -6,9 +6,9 @@
   <title>Javascript Racer</title>
 
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.css">
-  <link href="mn.css" rel="stylesheet">
+  <link href="main.css" rel="stylesheet">
 
-  <script src="jqry.js"></script>
+  <script src="jQuery.js"></script>
 
   <meta name="viewport" content="width=device-width">
 </head>
@@ -24,8 +24,8 @@
       <p><strong>Player 2 Key:</strong> P</p>
     </div>
     <div class = "floater">
-      <button>New Game</button>
-      <select class="distance">
+      <button id = "newGame">New Game</button>
+      <select id = "distance">
         <option value="10" selected="">10 light years</option>
         <option value="20">20 light years</option>
         <option value="30">30 light years</option>
@@ -33,26 +33,19 @@
     </div>
   </div>
   <div class = "track_container">
-    <table id="racer_table">
+    <table class="racer_table">
       <tr class="player1_strip">
-        <td class="ship-1"></td>
-        <td></td>
-        <td></td>
-        <td></td>      
-        <td></td> 
+        <td class="ship-1"></td>         
         <td rowspan = "2" class = "finish_line" style = "width:300;"></td>
       </tr>
       <tr class="player2_strip">
-        <td class="ship-2"></td>
-        <td></td>
-        <td></td>
-        <td></td>      
-        <td></td>       
+        <td class="ship-2"></td>              
       </tr>    
     </table>
   </div>
 
-  <script src="rcr.js"></script>
+  <script src="racer.js"></script>
+
 </body>
 
 </html>
