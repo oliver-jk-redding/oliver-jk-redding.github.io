@@ -140,10 +140,39 @@
         </div>
         <div class="two-thirds column  text-box">
           <h1 class="text">Problem Solving</h1>
-          <h5 class="text">13 February 2016</h5>
-          <h2 class="text">What is the relationship between mindfulness and self awareness?</h2>
+          <h5 class="text">14 February 2016</h5>
+          <h2 class="text">Overcoming Problems in Code</h2>      
           <p class="text">
-            The two are very similar. Mindfulness involves being mindful of oneself in a particular moment, while self-awareness is maintaining mindfulness in the midst of emotions. Both involve being aware of what one is feeling and experiencing at a particular point in time. Mindfulness is perhaps somewhat broader in definition though in that it involves not just being aware of one's emotional state, but bringing focus to outside phenomena as well including the emotional states of others. It is important therefore to have mindfulness in order to have self-awareness.
+            During the coding of my racing game I encountered a number of problems with my code. I find problems can usually fall into two main categories:
+          </p>
+          <ul>
+            <li>
+              Syntax errors: These are problems in the actual grammar of your code e.g. putting a semi-colon in the wrong place or forgetting to use a capital letter. These errors can actually make the code unreadable for your computer, stopping the whole website from working, but are usually easy to solve.
+            </li>
+            <li>
+              Logic errors: These are problems to do with the output of your code. The code might be grammatically correct and make sense to the computer, but the code produces an outcome different to the one you were expecting. This is usually because you wrote the code to achieve a particular outcome, but didn't follow through the logic properly and so the outcome is actually different to what you prepared for. These can be harder to detect and fix.
+            </li>
+          </ul>
+          <p>
+            If I encounter an error in my code, the first thing I do is look for error messages in the console. This can resolve the issue quickly as the console will usually show the line of code it is getting stuck on and tell you which line in the document it is. This can be particularly effective for solving syntax errors, for example finding that extra closing bracket you forgot to delete. It can also solve some logic errors, for example it might be that a particular variable has been undefined and the console can quickly identify which variable that is.
+          </p>
+          <p>
+            If that doesn't solve it, things can take a bit longer. It's time to isolate the problem. I add console.log() statements at various key points throughout the code to check that the program is reaching a desired section of code and that the values are as expected. A console.log() statement is a line of code that tells the program to print a specified output. This is especially useful with condition statements. Sometimes if a condition looks like it is being met, but the action in that condition is not happening, it can be useful to stick in a console.log() statement to see if the problem is with the action code or the condition code. If the console.log() statement fails to fire, then I know the problem is with the condition, etc.
+          </p>
+          <p>
+            Console.log statements can also be useful to check variables have the expected values. I might think a particular variable has the value '6' but in fact it has a value of '0'. Console.log() statements can quickly identify such problems.
+          </p>
+          <p>
+            Another trick is to 'comment' sections of more complex code and try running the program with more simplified code. E.g. if I can't get a function like checkKeyPressed() to fire off another complex function, updatePlayerPosition(), I need to know if the problem is with the checkKeyPressed() function or the updatePlayerPosition() function. So I will 'comment' or deactivate the checkKeyPressed() function and write a simpler version that instead of firing another function, does nothing more complicated than logging the key pressed to the console. Depending on the result I will know in which function the problem lies.
+          </p>
+          <p>
+            Sometimes the problem lies just with me not knowing the right code in which case I will comb google, w3schools, stackoverflow, and other useful sites to look for the right code or the correct way to implement that code. I'll often steal lines of code from these sites and paste it into my own code then modify it to suit my needs.
+          </p>
+          <p>
+            In a nutshell that's what I do. I have learned that working on a tired brain doesn't help either. The other night I was up until 1am trying to solve a problem which was as simple as writing 'keyCode' with a capital 'C' instead of a little 'c'.
+          </p>
+          <p>
+            It is worth having these techniques. There are few things more satisfying than finally solving a complex and frustrating problem and seeing your project advance to the next step.
           </p>
           <h2 class="text">My experience of journaling</h2>
           <p class="text">
