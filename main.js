@@ -4,7 +4,7 @@ drawBlogMenu(blogMenus[1]);
 
 function drawBlogMenu(menu) {
   var diff = "";
-  if(document.URL.includes("index.html")) {
+  if(document.URL.includes("index.html") || document.URL == "http://oliver-jk-redding.github.io/") {
     diff = "blog/"
   }
   menu.innerHTML = ""+
