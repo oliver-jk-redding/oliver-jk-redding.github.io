@@ -1,12 +1,18 @@
 var blogMenus = document.getElementsByName("blog-menu");
+var projectsMenu = document.getElementsByName("projects-menu");
+var diff1 = "";
+var diff2 = "../";
+if(document.URL.includes("index.html") || document.URL == "http://oliver-jk-redding.github.io/") {
+  diff1 = "blog/";
+  diff2 = "";  
+}
+else {  
+  drawBlogMenu(blogMenus[1]);
+}
 drawBlogMenu(blogMenus[0]);
-drawBlogMenu(blogMenus[1]);
+drawProjectMenu(projectsMenu[0]);
 
-function drawBlogMenu(menu) {
-  var diff = "";
-  if(document.URL.includes("index.html") || document.URL == "http://oliver-jk-redding.github.io/") {
-    diff = "blog/"
-  }
+function drawBlogMenu(menu) {  
   menu.innerHTML = ""+
   "<li class=\"u-cf\">"+
     "<a style=\"padding-top: 10px;\" href=\"" + diff + "c1-reflection-blog.html\">Shereef's Fireside Chat</a>"+
@@ -50,14 +56,7 @@ function drawBlogMenu(menu) {
   "";
 }
 
-var projectsMenu = document.getElementsByName("projects-menu");
-drawProjectMenu(projectsMenu[0]);
-
-function drawProjectMenu(menu) {
-  var diff = "../";
-  if(document.URL.includes("index.html") || document.URL == "http://oliver-jk-redding.github.io/") {
-    diff = ""
-  }
+function drawProjectMenu(menu) {  
   menu.innerHTML = ""+
   "<li class=\"u-cf\">"+
     "<a style=\"padding-top: 10px;\" href=\"" + diff + "javascript-racer/index.html\">Javascript Racer</a>"+  
