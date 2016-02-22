@@ -55,7 +55,7 @@ drawProjectMenu(projectsMenu[0]);
 
 function drawProjectMenu(menu) {
   var diff = "../";
-  if(document.URL.includes("index.html")) {
+  if(document.URL.includes("index.html") || document.URL == "http://oliver-jk-redding.github.io/") {
     diff = ""
   }
   menu.innerHTML = ""+
