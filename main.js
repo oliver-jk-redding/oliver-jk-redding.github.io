@@ -53,6 +53,9 @@ function drawBlogMenu(menu) {
   "<li class=\"u-cf\">"+ 
     "<a href=\"" + diff1 + "c6-control.html\">Control</a>"+
   "</li>"+
+  "<li class=\"u-cf\">"+ 
+    "<a href=\"" + diff1 + "c7-motivation.html\">Motivation</a>"+
+  "</li>"+
   "";
 }
 
