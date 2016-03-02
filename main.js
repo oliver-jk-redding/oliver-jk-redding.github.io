@@ -56,6 +56,9 @@ function drawBlogMenu(menu) {
   "<li class=\"u-cf\">"+ 
     "<a href=\"" + diff1 + "c7-motivation.html\">Motivation</a>"+
   "</li>"+
+  "<li class=\"u-cf\">"+ 
+    "<a href=\"" + diff1 + "cognitive-biases.html\">Cognitive Biases</a>"+
+  "</li>"+
   "";
 }
 
