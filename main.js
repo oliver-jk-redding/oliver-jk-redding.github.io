@@ -68,13 +68,13 @@ function drawProjectMenu(menu) {
     "<a style=\"padding-top: 10px;\" href=\"" + diff2 + "javascript-racer/index.html\">Javascript Racer</a>"+
   "</li>"+ 
   "<li class=\"u-cf\">"+
-    "<a style=\"padding-top: 10px;\" href=\"" + diff2 + "udacity-resume/index.html\">Udacity Resume</a>"+  
+    "<a href=\"" + diff2 + "udacity-resume/index.html\">Udacity Resume</a>"+  
   "</li>"+
   "<li class=\"u-cf\">"+
-    "<a style=\"padding-top: 10px;\" href=\"" + diff2 + "http://vickenliu.github.io/quote-generator/\">JS-Quote-Generator</a>"+  
+    "<a href=\"" + diff2 + "http://vickenliu.github.io/quote-generator/\">JS-Quote-Generator</a>"+  
   "</li>"+
   "<li class=\"u-cf\">"+
-    "<a style=\"padding-top: 10px;\" href=\"" + diff2 + "js-calculator/index.html\">JS-Calculator</a>"+  
+    "<a href=\"" + diff2 + "js-calculator/index.html\">JS-Calculator</a>"+  
   "</li>"+
   "";
 }
