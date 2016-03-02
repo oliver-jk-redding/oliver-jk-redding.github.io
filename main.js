@@ -65,7 +65,7 @@ function drawBlogMenu(menu) {
 function drawProjectMenu(menu) {  
   menu.innerHTML = ""+
   "<li class=\"u-cf\">"+
-    "<a style=\"padding-top: 10px;\" href=\"" + diff2 + "javascript-racer/index.html\">projects/Javascript Racer</a>"+
+    "<a style=\"padding-top: 10px;\" href=\"" + diff2 + "projects/javascript-racer/index.html\">Javascript Racer</a>"+
   "</li>"+ 
   "<li class=\"u-cf\">"+
     "<a href=\"" + diff2 + "projects/udacity-resume/index.html\">Udacity Resume</a>"+  
