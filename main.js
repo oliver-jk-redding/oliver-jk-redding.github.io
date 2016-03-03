@@ -65,16 +65,16 @@ function drawBlogMenu(menu) {
 function drawProjectMenu(menu) {  
   menu.innerHTML = ""+
   "<li class=\"u-cf\">"+
-    "<a style=\"padding-top: 10px;\" href=\"" + diff2 + "projects/javascript-racer/index.html\">Javascript Racer</a>"+
+    "<a style=\"padding-top: 10px;\" href=\"" + diff2 + "oliver-jk-redding/javascript-racer\">Javascript Racer</a>"+
   "</li>"+ 
   "<li class=\"u-cf\">"+
-    "<a href=\"" + diff2 + "projects/udacity-resume/index.html\">Udacity Resume</a>"+  
+    "<a href=\"" + diff2 + "oliver-jk-redding/frontend-nanodegree-resume\">Udacity Resume</a>"+  
   "</li>"+
   "<li class=\"u-cf\">"+
     "<a href=\"" + diff2 + "http://vickenliu.github.io/quote-generator/\">JS-Quote-Generator</a>"+  
   "</li>"+
   "<li class=\"u-cf\">"+
-    "<a href=\"" + diff2 + "projects/js-calculator/index.html\">JS-Calculator</a>"+  
+    "<a href=\"" + diff2 + "oliver-jk-redding/js-calculator\">JS-Calculator</a>"+  
   "</li>"+
   "";
 }
