@@ -60,7 +60,7 @@ function drawBlogMenu(menu) {
     "<a href=\"" + diff1 + "cognitive-biases.html\">Cognitive Biases</a>"+
   "</li>"+
   "<li class=\"u-cf\">"+ 
-    "<a href=\"" + diff1 + "t8-scope.html\">Cognitive Biases</a>"+
+    "<a href=\"" + diff1 + "t8-scope.html\">Scope</a>"+
   "</li>"+
   "";
 }
