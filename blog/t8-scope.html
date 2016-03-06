@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <!-- Basic Page Needs
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta charset="utf-8">
+  <title>Scope</title>
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <!-- Mobile Specific Metas
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- FONT
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
+
+  <!-- CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.css">
+  <!-- <link rel="stylesheet" href="/home/dev/workspace/oliver-jk-redding.github.io/styles/main.css"> -->
+  <link rel="stylesheet" href="../styles/main.css">
+
+  <!-- Favicon
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="icon" type="image/ico" href="../images/favicon.ico">
+
+</head>
+
+<body>
+
+  <!-- Primary Page Layout
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <header class="section">
+    <div class="container">
+      <nav class="row  menu">
+        <div class="four columns">
+          <h5 class="name"><a href="http://oliver-jk-redding.github.io">oliver-jk-redding</a></h5>   
+        </div>
+        <ul>          
+          <li class="two columns">
+            <a href="#">Projects<span class="arrow">&#9660;</span></a>
+            <ul class="sub-menu" name="projects-menu">
+            </ul> 
+          </li>
+          <li class="two columns">
+            <a href="#">Blogs<span class="arrow">&#9660;</span></a>
+            <ul class="sub-menu" name="blog-menu">    
+            </ul> 
+          </li>
+          <li class="two columns">
+            <a href="#">Contact</a>
+          </li>
+          <li class="two columns">
+            <a href="#">About Me</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section class="section">
+    <div class="container">
+      <div class="row">
+        <div class="one-third column">
+          <ul class="side-menu" name="blog-menu">
+          </ul> 
+        </div>
+        <div class="two-thirds column  text-box">
+          <h1 class="text">Scope</h1>
+          <h5 class="text">07 March 2016</h5>    
+          <h2 class="text">What is 'scope'?</h2>
+          <p>
+            Scope is the extent to which a given variable is visible to the rest of the program.
+          </p>
+          <p> 
+            Imagine a room inside a room. The outer room represents the program as a whole. The inner room represents a function within the program. The inner room has windows which allow people inside the room to look out into the larger outer room. However these windows are one-sided like those windows you see in police interrogation rooms in movies. On one side it acts like a regular window, but on the other it is just a mirror. In this case, though, the windows are reversed. So the people in the inner room can look out into the outer room, but those in the outer room can only see their own reflection when they try to look through into the inner room. 
+          </p>
+          <p>
+            This is a bit how scope works. Variables declared in the outer room, or in the general program, have 'global scope', and are visible to every bit of code in any of the inner rooms. However, variables declared in one of the inner rooms have what's called 'local scope' and when the outer program tries to look at them, they can't, because their view is reflected back at them. There can be as many rooms in a program as one likes even inside each other. So if another room existed inside the inner room, the inner inner room could see all variables in the inner room and outer room but the outer room and inner room would not be able to see any of the variables in the inner inner room. This structure prevents a function from inadvertently altering the rest of the program. It also means that two variables with the same name can simultaneously exist in the program and contain different values. 
+          </p>
+          <p>
+            It is worth mentioning that all variables are declared at the top of their scope. Imagine that Andrew, Tom and Sarah, and a table are in a room. When the program runs, it tries to find out information about each room. This first thing it does is get a list of all the variables (in this case, people and objects) in the room. The program will say something like 'okay, in this room I have something called Andrew, something called Tom, something called Sarah and something called table. I don't know who or what these are but I know they exist. I will just put a question mark next to their name for now until I meet them.' The program will then continue to run and when it gets to the part where a given variable is declared, it will say something like 'Ah, so this is who Andrew is. Cool, I'll attach a photo of his face to his name so I don't forget.' In this way, the program makes a list of all the variables in the room at the start of execution, giving them initially a value of undefined, until it get to the part in the code where those variables are given values. This process works on the inner rooms as well. As soon as a room is entered, a list of all the local variables in that room is made, all with a value of undefined, and they are defined later as the program works its way through the code line by line.
+          </p>
+        </div>
+      </div>      
+    </div>
+  </section>
+
+  <footer class="section footer">
+    <div class="container">
+      <nav class="row">
+        <ul>  
+          <li class="footer-item">
+            <a href="https://github.com/oliver-jk-redding">github</a>
+          </li>
+          <li class="footer-item">
+            <a href="https://www.linkedin.com/profile/view?id=436583169&trk=nav_responsive_tab_profile">linkedin</a>
+          </li>          
+          <li class="footer-item">
+            <a href="#">CV</a> 
+          </li>                    
+        </ul>        
+      </nav>
+    </div>
+  </footer>
+
+<!-- End Document
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+<script src="../main.js"></script>
+
+</body>
+</html>
