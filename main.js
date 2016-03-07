@@ -62,6 +62,9 @@ function drawBlogMenu(menu) {
   "<li class=\"u-cf\">"+ 
     "<a href=\"" + diff1 + "t8-scope.html\">Scope</a>"+
   "</li>"+
+  "<li class=\"u-cf\">"+ 
+    "<a href=\"" + diff1 + "c8-connecting.html\">Connecting</a>"+
+  "</li>"+
   "";
 }
 
