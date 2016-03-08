@@ -1,10 +1,8 @@
 var blogMenus = document.getElementsByName("blog-menu");
 var projectsMenu = document.getElementsByName("projects-menu");
 var diff1 = "";
-var diff2 = "../";
 if(document.URL.includes("index.html") || document.URL == "http://oliver-jk-redding.github.io/") {
   diff1 = "blog/";
-  diff2 = "";  
 }
 else {  
   drawBlogMenu(blogMenus[1]);
@@ -71,16 +69,16 @@ function drawBlogMenu(menu) {
 function drawProjectMenu(menu) {  
   menu.innerHTML = ""+
   "<li class=\"u-cf\">"+
-    "<a style=\"padding-top: 10px;\" href=\"" + diff2 + "http://oliver-jk-redding.github.io/javascript-racer\">Javascript Racer</a>"+
+    "<a style=\"padding-top: 10px;\" href=\"http://oliver-jk-redding.github.io/javascript-racer\">Javascript Racer</a>"+
   "</li>"+ 
   "<li class=\"u-cf\">"+
-    "<a href=\"" + diff2 + "http://oliver-jk-redding.github.io/frontend-nanodegree-resume\">Udacity Resume</a>"+  
+    "<a href=\"http://oliver-jk-redding.github.io/frontend-nanodegree-resume\">Udacity Resume</a>"+  
   "</li>"+
   "<li class=\"u-cf\">"+
-    "<a href=\"" + diff2 + "http://vickenliu.github.io/quote-generator/\">JS-Quote-Generator</a>"+  
+    "<a href=\"http://vickenliu.github.io/quote-generator/\">JS-Quote-Generator</a>"+  
   "</li>"+
   "<li class=\"u-cf\">"+
-    "<a href=\"" + diff2 + "http://oliver-jk-redding.github.io/js-calculator\">JS-Calculator</a>"+  
+    "<a href=\"http://oliver-jk-redding.github.io/js-calculator\">JS-Calculator</a>"+  
   "</li>"+
   "";
 }
