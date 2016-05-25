@@ -1,2 +1,2 @@
 # oliver-jk-redding.github.io
-Ollie's Blog
+my personal website
